@@ -7,7 +7,7 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, ArcElement, T
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend);
 
-const API_URL = 'http://localhost:8001';
+const API_URL = 'http://localhost:8000';
 
 const MeetingDetail = () => {
   const { meetingId } = useParams();
