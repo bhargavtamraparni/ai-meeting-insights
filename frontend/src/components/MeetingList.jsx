@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import FileUpload from './FileUpload';
 import Loader from './Loader';
 
-const API_URL = 'http://localhost:8001';
+const API_URL = 'http://localhost:8000';
 
 const MeetingList = () => {
   const [meetings, setMeetings] = useState([]);
