@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-dotenv
+httpx
+chromadb
+pydantic==2.7.1
+ffmpeg-python
+python-multipart
+faster-whisper
+pydub
