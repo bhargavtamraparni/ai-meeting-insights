@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8001';
+const API_URL = 'http://localhost:8000';
 
 const FileUpload = ({ onUploadSuccess }) => {
   const [file, setFile] = useState(null);
